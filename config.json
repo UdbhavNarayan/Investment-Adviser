@@ -1,0 +1,55 @@
+{
+  "currency": "HKD",
+  "monthly_salary_hkd": 38000,
+  "monthly_investment_budget_hkd": 10000,
+  "spare_cash_remaining_hkd": 30000,
+  "spare_cash_deployment_per_month_hkd": 10000,
+  "target_allocation": {
+    "steady": 0.6,
+    "risk": 0.4
+  },
+  "maximum_annualized_downside_volatility": 0.35,
+  "history_period": "2y",
+  "assets": {
+    "2800.HK": {
+      "name": "Tracker Fund of Hong Kong",
+      "shares": 0,
+      "bucket": "steady",
+      "market": "HKEX",
+      "currency": "HKD",
+      "target_weight_in_bucket": 0.5
+    },
+    "VT": {
+      "name": "Vanguard Total World Stock ETF (example)",
+      "shares": 0,
+      "bucket": "steady",
+      "market": "GLOBAL",
+      "currency": "USD",
+      "target_weight_in_bucket": 0.5
+    },
+    "03006.HK": {
+      "name": "HKEX example holding 03006",
+      "shares": 0,
+      "bucket": "risk",
+      "market": "HKEX",
+      "currency": "HKD",
+      "target_weight_in_bucket": 0.34
+    },
+    "03119.HK": {
+      "name": "HKEX example holding 03119",
+      "shares": 0,
+      "bucket": "risk",
+      "market": "HKEX",
+      "currency": "HKD",
+      "target_weight_in_bucket": 0.33
+    },
+    "03132.HK": {
+      "name": "HKEX example holding 03132",
+      "shares": 0,
+      "bucket": "risk",
+      "market": "HKEX",
+      "currency": "HKD",
+      "target_weight_in_bucket": 0.33
+    }
+  }
+}
